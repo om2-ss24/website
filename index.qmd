@@ -4,6 +4,7 @@ title: "Course schedule"
 
 Welcome to our course Big Data and Web Analytics! 👋  
 
+
 This page contains a weekly overview about the topics and materials for the semester.
 
 :::{.callout-note}
