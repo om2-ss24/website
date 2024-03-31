@@ -90,7 +90,8 @@ The final course grade will be calculated as follows:
 | 3. E-Exam                               | 60 |
 
 
-The points for assignments 1 to 3 will only be awarded if the corresponding certificates (badges) are submitted on time (see Moodle for more details).
+The points for assignments 1 to 3 will only be awarded if the corresponding tasks are submitted on time (see Moodle for more details).
+
 
 The final grade will be determined based on the following thresholds:
 
