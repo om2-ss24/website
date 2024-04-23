@@ -64,7 +64,6 @@ website:
           - href: programming-requirements.qmd
             text: Requirements
           - href: anaconda-environment.qmd
-            text: Requirements
 
 
 format:
