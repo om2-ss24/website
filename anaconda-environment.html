@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Big Data and Web Analytics - Course support</title>
+<title>Big Data and Web Analytics - Anaconda Environment</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -29,8 +63,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./index.html" rel="next">
-<link href="./course-syllabus.html" rel="prev">
+<link href="./programming-requirements.html" rel="prev">
 <link href=".//images/logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -71,7 +104,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<meta property="og:title" content="Big Data and Web Analytics - Course support">
+<meta property="og:title" content="Big Data and Web Analytics - Anaconda Environment">
 <meta property="og:description" content="Homepage for the course Big Data and Web Analytics at HdM Stuttgart, SS 2024.">
 <meta property="og:image" content="https://om2-ss24.github.io/website//images/logo.png">
 <meta property="og:site_name" content="Big Data and Web Analytics">
@@ -88,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-support.html">Support</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./programming-requirements.html">Programming &amp; Tools</a></li><li class="breadcrumb-item"><a href="./anaconda-environment.html">Requirements</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -120,13 +153,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Course information</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./course-overview.html" class="sidebar-item-text sidebar-link">
@@ -141,7 +174,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./course-support.html" class="sidebar-item-text sidebar-link active">
+  <a href="./course-support.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Support</span></a>
   </div>
 </li>
@@ -155,13 +188,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">Programming &amp; Tools</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./programming-requirements.html" class="sidebar-item-text sidebar-link">
@@ -170,7 +203,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./anaconda-environment.html" class="sidebar-item-text sidebar-link">
+  <a href="./anaconda-environment.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Requirements</span></a>
   </div>
 </li>
@@ -186,19 +219,24 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#lectures" id="toc-lectures" class="nav-link active" data-scroll-target="#lectures"><span class="header-section-number">1</span> Lectures</a></li>
-  <li><a href="#discussion-forum" id="toc-discussion-forum" class="nav-link" data-scroll-target="#discussion-forum"><span class="header-section-number">2</span> Discussion forum</a></li>
-  <li><a href="#email" id="toc-email" class="nav-link" data-scroll-target="#email"><span class="header-section-number">3</span> Email</a></li>
-  <li><a href="#academic-support" id="toc-academic-support" class="nav-link" data-scroll-target="#academic-support"><span class="header-section-number">4</span> Academic support</a></li>
+  <li><a href="#creating-the-project-structure" id="toc-creating-the-project-structure" class="nav-link active" data-scroll-target="#creating-the-project-structure"><span class="header-section-number">1</span> Creating the Project Structure</a></li>
+  <li><a href="#downloading-the-yaml-file" id="toc-downloading-the-yaml-file" class="nav-link" data-scroll-target="#downloading-the-yaml-file"><span class="header-section-number">2</span> Downloading the YAML File</a>
+  <ul class="collapse">
+  <li><a href="#understanding-curl-and-its-parameters" id="toc-understanding-curl-and-its-parameters" class="nav-link" data-scroll-target="#understanding-curl-and-its-parameters"><span class="header-section-number">2.1</span> Understanding <code>curl</code> and Its Parameters</a></li>
+  </ul></li>
+  <li><a href="#setting-up-the-anaconda-environment" id="toc-setting-up-the-anaconda-environment" class="nav-link" data-scroll-target="#setting-up-the-anaconda-environment"><span class="header-section-number">3</span> Setting Up the Anaconda Environment</a>
+  <ul class="collapse">
+  <li><a href="#understanding-the-yml-file-in-its-content" id="toc-understanding-the-yml-file-in-its-content" class="nav-link" data-scroll-target="#understanding-the-yml-file-in-its-content"><span class="header-section-number">3.1</span> Understanding the YML-file in its Content</a></li>
+  </ul></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/om2-ss24/website/edit/main/course-support.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/om2-ss24/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/om2-ss24/website/edit/main/anaconda-environment.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/om2-ss24/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./course-overview.html">Course information</a></li><li class="breadcrumb-item"><a href="./course-support.html">Support</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./programming-requirements.html">Programming &amp; Tools</a></li><li class="breadcrumb-item"><a href="./anaconda-environment.html">Requirements</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Course support</h1>
+<h1 class="title">Anaconda Environment</h1>
 </div>
 
 
@@ -215,24 +253,118 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="lectures" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Lectures</h1>
-<p>If you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.</p>
+<p>The following setup provides a comprehensive approach for both Windows and Mac users to create a structured project directory, download necessary files, and set up an isolated Python environment for our project.</p>
+<p>By following these instructions, you will have a consistent and reproducible development environment, which is crucial for academic and professional projects.</p>
+<section id="creating-the-project-structure" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="creating-the-project-structure"><span class="header-section-number">1</span> Creating the Project Structure</h2>
+<ul>
+<li><p>For Windows Users: Open Command Prompt (you can do this by typing <code>cmd</code> in the Windows search bar and hitting Enter).</p></li>
+<li><p>For Mac Users: Open Terminal (you can find this in the Applications folder under Utilities, or use Spotlight by pressing Cmd + Space and typing “Terminal”).</p></li>
+</ul>
+<ol type="1">
+<li>Create a new folder called <code>genai</code>:</li>
+</ol>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> genai</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="2" type="1">
+<li>Navigate into the <code>genai</code> folder:</li>
+</ol>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> genai</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="3" type="1">
+<li>Create a subfolder called <code>anaconda-env</code>:</li>
+</ol>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mkdir</span> anaconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ol start="4" type="1">
+<li>Navigate into the subfolder</li>
+</ol>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> anaconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="discussion-forum" class="level1" data-number="2">
-<h1 data-number="2"><span class="header-section-number">2</span> Discussion forum</h1>
-<p>Prefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the <a href="https://moodle.hdm-stuttgart.de/login/index.php">Moodle forum</a> as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!</p>
+<section id="downloading-the-yaml-file" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="downloading-the-yaml-file"><span class="header-section-number">2</span> Downloading the YAML File</h2>
+<p>We use <code>curl</code> to download the YAML file (I assume you are in the folder <code>anaconda-env</code>). This ensures the file is saved in the right place. You can check if you are in the right path as follows:</p>
+<ul>
+<li><p>Mac: To print the current directory path in the Terminal, you can use the command <code>pwd</code> (print working directory) without any arguments.</p></li>
+<li><p>Windows: To print the current directory path in the Windows Command Prompt, you can use the cd command without any arguments. Simply type: <code>cd</code></p></li>
+</ul>
+<p>Now use the <code>curl</code> command to download the <code>env-genai.yml</code> file:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-LJO</span> https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-genai.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="understanding-curl-and-its-parameters" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="understanding-curl-and-its-parameters"><span class="header-section-number">2.1</span> Understanding <code>curl</code> and Its Parameters</h3>
+<p>After downloading the file, let’s revisit what the <code>curl</code> command does:</p>
+<ul>
+<li><strong><code>-L</code></strong>: Follows any redirects which the server might send as part of the request.</li>
+<li><strong><code>-J</code></strong>: Uses the header-provided filename to save the file.</li>
+<li><strong><code>-O</code></strong>: Saves the file locally with the same name as the filename on the server.</li>
+</ul>
 </section>
-<section id="email" class="level1" data-number="3">
-<h1 data-number="3"><span class="header-section-number">3</span> Email</h1>
-<p>Please refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at <a href="mailto:kirenz@hdm-stuttgart.de">kirenz@hdm-stuttgart.de</a>.</p>
-<p>If there is a question that’s not appropriate for the public forum, you are welcome to email me directly. <strong>If you email me, please include the name of our course in the subject line.</strong></p>
 </section>
-<section id="academic-support" class="level1" data-number="4">
-<h1 data-number="4"><span class="header-section-number">4</span> Academic support</h1>
-<p>There are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the <a href="https://www.hdm-stuttgart.de/studierende/abteilungen/cld/angebote_studierende_studieninteressierte"><strong>Center for Learning and Development</strong></a>: it offers free services to all students.</p>
+<section id="setting-up-the-anaconda-environment" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="setting-up-the-anaconda-environment"><span class="header-section-number">3</span> Setting Up the Anaconda Environment</h2>
+<p><strong>Important Note:</strong> Before proceeding with the creation of the Anaconda environment, ensure you are in the <code>anaconda-env</code> folder where the <code>env-genai.yml</code> file is located. This is crucial because the <code>conda</code> command looks for the YAML file in your current directory.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Windows-User">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Windows-User
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Open Anaconda Command Prompt and navigate to the subfolder genai/anaconda-env:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ..<span class="dt">\g</span>enai<span class="dt">\a</span>naconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled" title="Mac-User">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Mac-User
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/genai/anaconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+<p>Create the Anaconda Environment:</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> env-genai.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This command will create a new environment named <code>genai</code> and install all the dependencies listed in the YAML file.</p>
+<p><strong>Activate the Environment:</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate genai</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Activating the environment will switch your current session to use the Python version and libraries specified in the environment.</p>
+<section id="understanding-the-yml-file-in-its-content" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="understanding-the-yml-file-in-its-content"><span class="header-section-number">3.1</span> Understanding the YML-file in its Content</h3>
+<p><strong>YAML File</strong>: YAML (YAML Ain’t Markup Language) is a human-readable data serialization standard that can be used for configuration files and other forms of data that need to be stored and transmitted. In the context of Anaconda, a YAML file specifies the environment’s name, the channels to install packages from, and the list of dependencies.</p>
+<p>This Anaconda YAML file is used to create a specific environment named “genai” with a set of predefined packages and dependencies. Here’s a breakdown of its components:</p>
+<ul>
+<li><p><strong>name</strong>: Specifies the name of the environment, which is “genai” in this case.</p></li>
+<li><p><strong>channels</strong>: Defines the sources where the packages will be downloaded from. It includes “conda-forge” and “defaults”. Conda-forge is a community-led collection of recipes, build infrastructure, and distributions for the conda package manager.</p></li>
+<li><p><strong>dependencies</strong>: Lists the packages and versions that will be installed in the environment:</p>
+<ul>
+<li><strong>python=3.11</strong>: Installs Python version 3.11.</li>
+<li><strong>pip</strong>: Ensures that pip, the Python package installer, is available in the environment.</li>
+<li><strong>pip:</strong>: Under this entry, it specifies additional Python packages to be installed via pip:
+<ul>
+<li><strong>pandas</strong>: A library providing high-performance, easy-to-use data structures and data analysis tools.</li>
+<li><strong>streamlit</strong>: A tool for creating and sharing custom web apps for machine learning and data science.</li>
+<li><strong>openai</strong>: Provides access to the APIs of OpenAI, including capabilities like GPT models.</li>
+<li><strong>streamlit-feedback</strong>: An extension for Streamlit to gather user feedback within Streamlit apps.</li>
+<li><strong>python-dotenv</strong>: A dependency that allows your application to load environment variables from a <code>.env</code> file which is useful for managing app settings during development and in production.</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>This YAML file helps in managing the environment setup by ensuring that all necessary dependencies are installed using Conda and pip, thereby standardizing the environment setup and facilitating reproducibility across different machines and setups.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -791,14 +923,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./course-syllabus.html" class="pagination-link" aria-label="Syllabus">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Syllabus</span>
+      <a href="./programming-requirements.html" class="pagination-link" aria-label="Requirements">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Requirements</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./index.html" class="pagination-link" aria-label="Schedule">
-        <span class="nav-page-text">Schedule</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
@@ -820,7 +949,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
 </ul>
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/om2-ss24/website/edit/main/course-support.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/om2-ss24/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/om2-ss24/website/edit/main/anaconda-environment.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/om2-ss24/website/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
