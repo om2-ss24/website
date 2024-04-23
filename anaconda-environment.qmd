@@ -1,5 +1,5 @@
 ---
-title: Anaconda Environment
+title: Environment Gen AI
 number-sections: true
 ---
 
