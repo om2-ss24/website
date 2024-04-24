@@ -75,7 +75,7 @@ After downloading the file, let's revisit what the `curl` command does:
 Open Anaconda Command Prompt and navigate to the subfolder genai/anaconda-env:
 
 ```bash
-cd ..\genai\anaconda-env
+cd .\genai\anaconda-env
 ```
 :::
 
