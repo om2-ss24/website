@@ -277,16 +277,32 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Navigate into the subfolder</li>
 </ol>
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> anaconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="downloading-the-yaml-file" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="downloading-the-yaml-file"><span class="header-section-number">2</span> Downloading the YAML File</h2>
-<p>We use <code>curl</code> to download the YAML file (I assume you are in the folder <code>anaconda-env</code>). This ensures the file is saved in the right place. You can check if you are in the right path as follows:</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Check your path">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Check your path
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>You can check if you are in the right path as follows:</p>
 <ul>
 <li><p>Mac: To print the current directory path in the Terminal, you can use the command <code>pwd</code> (print working directory) without any arguments.</p></li>
 <li><p>Windows: To print the current directory path in the Windows Command Prompt, you can use the cd command without any arguments. Simply type: <code>cd</code></p></li>
 </ul>
-<p>Now use the <code>curl</code> command to download the <code>env-genai.yml</code> file:</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-LJO</span> https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-genai.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="downloading-the-yaml-file" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="downloading-the-yaml-file"><span class="header-section-number">2</span> Downloading the YAML File</h2>
+<p>We use an Anaconda YAML file to create a specific Python environment named “om2” with a set of predefined packages and dependencies.</p>
+<p>Let’s use <code>curl</code> (a command line tool and library for transferring data with URLs) to download the file into the folder anaconda-env:</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-LJO</span> https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-om2.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <section id="understanding-curl-and-its-parameters" class="level3" data-number="2.1">
 <h3 data-number="2.1" class="anchored" data-anchor-id="understanding-curl-and-its-parameters"><span class="header-section-number">2.1</span> Understanding <code>curl</code> and Its Parameters</h3>
 <p>After downloading the file, let’s revisit what the <code>curl</code> command does:</p>
@@ -299,9 +315,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="setting-up-the-anaconda-environment" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="setting-up-the-anaconda-environment"><span class="header-section-number">3</span> Setting Up the Anaconda Environment</h2>
-<p><strong>Important Note:</strong> Before proceeding with the creation of the Anaconda environment, ensure you are in the <code>anaconda-env</code> folder where the <code>env-genai.yml</code> file is located. This is crucial because the <code>conda</code> command looks for the YAML file in your current directory.</p>
+<p><strong>Important Note:</strong> Before proceeding with the creation of the Anaconda environment, ensure you are in the <code>anaconda-env</code> folder where the <code>.yml</code> file is located. This is crucial because the <code>conda</code> command looks for the YAML file in your current directory.</p>
 <div class="callout callout-style-default callout-tip callout-titled" title="Windows-User">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -310,7 +326,7 @@ Windows-User
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Open Anaconda Command Prompt and navigate to the subfolder genai/anaconda-env:</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ..<span class="dt">\g</span>enai<span class="dt">\a</span>naconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -318,7 +334,7 @@ Windows-User
 </div>
 </div>
 <div class="callout callout-style-default callout-tip callout-titled" title="Mac-User">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -327,7 +343,7 @@ Mac-User
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Open the Terminal or use the integrated Terminal in VS Code. Navigate to the subfolder data-collection:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> ~/genai/anaconda-env</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -335,17 +351,17 @@ Mac-User
 </div>
 </div>
 <p>Create the Anaconda Environment:</p>
-<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> env-genai.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>This command will create a new environment named <code>genai</code> and install all the dependencies listed in the YAML file.</p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> env create <span class="at">-f</span> env-om2.yml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>This command will create a new environment named <code>om2</code> and install all the dependencies listed in the YAML file.</p>
 <p><strong>Activate the Environment:</strong></p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate genai</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="ex">conda</span> activate om2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Activating the environment will switch your current session to use the Python version and libraries specified in the environment.</p>
 <section id="understanding-the-yml-file-in-its-content" class="level3" data-number="3.1">
 <h3 data-number="3.1" class="anchored" data-anchor-id="understanding-the-yml-file-in-its-content"><span class="header-section-number">3.1</span> Understanding the YML-file in its Content</h3>
 <p><strong>YAML File</strong>: YAML (YAML Ain’t Markup Language) is a human-readable data serialization standard that can be used for configuration files and other forms of data that need to be stored and transmitted. In the context of Anaconda, a YAML file specifies the environment’s name, the channels to install packages from, and the list of dependencies.</p>
-<p>This Anaconda YAML file is used to create a specific environment named “genai” with a set of predefined packages and dependencies. Here’s a breakdown of its components:</p>
+<p>This Anaconda YAML file is used to create a specific environment named “om2” with a set of predefined packages and dependencies. Here’s a breakdown of its components:</p>
 <ul>
-<li><p><strong>name</strong>: Specifies the name of the environment, which is “genai” in this case.</p></li>
+<li><p><strong>name</strong>: Specifies the name of the environment, which is “om2” in this case.</p></li>
 <li><p><strong>channels</strong>: Defines the sources where the packages will be downloaded from. It includes “conda-forge” and “defaults”. Conda-forge is a community-led collection of recipes, build infrastructure, and distributions for the conda package manager.</p></li>
 <li><p><strong>dependencies</strong>: Lists the packages and versions that will be installed in the environment:</p>
 <ul>
