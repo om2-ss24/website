@@ -40,18 +40,23 @@ cd anaconda-env
 ```
 
 
-## Downloading the YAML File
-
-We use `curl` to download the YAML file (I assume you are in the folder `anaconda-env`). This ensures the file is saved in the right place. You can check if you are in the right path as follows: 
+:::{.callout-tip collapse="true" title="Check your path"}
+You can check if you are in the right path as follows: 
 
 - Mac: To print the current directory path in the Terminal, you can use the command `pwd` (print working directory) without any arguments. 
 
 - Windows: To print the current directory path in the Windows Command Prompt, you can use the cd command without any arguments. Simply type: `cd`
+:::
 
-Now use the `curl` command to download the `env-genai.yml` file:
+
+## Downloading the YAML File
+
+We use an Anaconda YAML file to create a specific Python environment named "om2" with a set of predefined packages and dependencies.
+
+Let's use `curl` (a command line tool and library for transferring data with URLs) to download the file into the folder anaconda-env: 
 
 ```bash
-curl -LJO https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-genai.yml
+curl -LJO https://raw.githubusercontent.com/kirenz/environments/main/ss2024/env-om2.yml
 ```
 
 ### Understanding `curl` and Its Parameters
@@ -64,7 +69,7 @@ After downloading the file, let's revisit what the `curl` command does:
 
 ## Setting Up the Anaconda Environment
 
-**Important Note:** Before proceeding with the creation of the Anaconda environment, ensure you are in the `anaconda-env` folder where the `env-genai.yml` file is located. This is crucial because the `conda` command looks for the YAML file in your current directory.
+**Important Note:** Before proceeding with the creation of the Anaconda environment, ensure you are in the `anaconda-env` folder where the `.yml` file is located. This is crucial because the `conda` command looks for the YAML file in your current directory.
 
 :::{.callout-tip collapse="true" title="Windows-User"}
 Open Anaconda Command Prompt and navigate to the subfolder genai/anaconda-env:
@@ -88,14 +93,14 @@ Create the Anaconda Environment:
 
 
 ```bash
-conda env create -f env-genai.yml
+conda env create -f env-om2.yml
 ```
-This command will create a new environment named `genai` and install all the dependencies listed in the YAML file.
+This command will create a new environment named `om2` and install all the dependencies listed in the YAML file.
 
 **Activate the Environment:**
 
 ```bash
-conda activate genai
+conda activate om2
 ```
 Activating the environment will switch your current session to use the Python version and libraries specified in the environment.
 
@@ -103,9 +108,9 @@ Activating the environment will switch your current session to use the Python ve
 
 **YAML File**: YAML (YAML Ain't Markup Language) is a human-readable data serialization standard that can be used for configuration files and other forms of data that need to be stored and transmitted. In the context of Anaconda, a YAML file specifies the environment's name, the channels to install packages from, and the list of dependencies.
 
-This Anaconda YAML file is used to create a specific environment named "genai" with a set of predefined packages and dependencies. Here's a breakdown of its components:
+This Anaconda YAML file is used to create a specific environment named "om2" with a set of predefined packages and dependencies. Here's a breakdown of its components:
 
-- **name**: Specifies the name of the environment, which is "genai" in this case.
+- **name**: Specifies the name of the environment, which is "om2" in this case.
 
 - **channels**: Defines the sources where the packages will be downloaded from. It includes "conda-forge" and "defaults". Conda-forge is a community-led collection of recipes, build infrastructure, and distributions for the conda package manager.
 
