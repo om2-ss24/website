@@ -56,7 +56,7 @@ Assessment for the course is comprised of these components:
 
 ## Google Analytics Certificate
 
-In this course, a pivotal assessment entails obtaining the [Google Analytics 4 (GA4) Certification](https://skillshop.exceedlms.com/student/path/508845-google-analytics-certification) from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data. 
+In this course, a pivotal assessment entails obtaining the - [Google Analytics](https://skillshop.docebosaas.com/learn/courses/14810/google-analytics-certification) from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data. 
 
 By undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course. 
 
