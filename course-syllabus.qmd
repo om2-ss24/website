@@ -73,6 +73,8 @@ Additionally, understanding Large Language Models and Responsible AI will provid
 
 By creating a Generatice AI-driven marketing application, you'll demonstrate your understanding of foundational concepts in generative AI.
 
+More information about the specific requirements will be provided during the semester.
+
 
 ## Exam {#sec-exams}
 
