@@ -12,12 +12,20 @@ This overview will be updated as the semester progresses. Content marked as not 
 :::
 
 
-|	Nr	|	Content	|		Resources		|	
-|	---	|	---	|		---		|	
-|	1	|	**Introduction**	|				|	
-|	2	|	Big Data & Web Analytics	|		[📑](https://docs.google.com/presentation/d/14mDixoFHReJhc7D3G0ooC_CZJ8R14AcjJLXqFfUmKgo/export/pdf)		|	
-|	3	|	Prompt Engineering Basics	|				|	
-|	4	|	**Generative AI**	|				|	
-|	5	|	Anaconda environment	|		[⚒️](https://om2-ss24.github.io/website/anaconda-environment.html)		|	
-|	6	|	Assistants API from Open AI	|		[Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=2233&section=10)		|	
-|	7	|	Chat-Frontend: Streamlit Dashboard	|				|	
+|	Nr	|	Date	|	Content	|		Resources		|	
+|	---	|	---	|	---	|		---		|	
+|	1	|		|	**Introduction**	|				|	
+|	2	|	03.04.	|	Big Data & Web Analytics	|		[📑](https://docs.google.com/presentation/d/14mDixoFHReJhc7D3G0ooC_CZJ8R14AcjJLXqFfUmKgo/export/pdf)		|	
+|	3	|	10.04.	|	Prompt Engineering Basics	|				|	
+|	4	|		|	**Generative AI**	|				|	
+|	5	|	24.04.	|	Anaconda environment	|		[⚒️](https://om2-ss24.github.io/website/anaconda-environment.html)		|	
+|	6	|	24.04.	|	Assistants API from Open AI	|		[Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=2233&section=10)		|	
+|	7	|	24.04.	|	Chat-Frontend: Streamlit Dashboard	|				|	
+|	8	|	01.05.	|	Generative AI (01.05 - 07.06.)	|		[Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=2233&section=10)		|	
+|	9	|		|	**Web Analytics**	|				|	
+|	10	|	07.06.	|	Digital Customer Journey	|		[📑](https://docs.google.com/presentation/d/1PjsH6zrGXJQmVUeUXqtx97YXXrxmwhj13n442SDNyIE/export/pdf)		|	
+|	11	|	07.06.	|	Web tracking mit Blogger 	|		Demo		|	
+|	12	|	07.06.	|	Google Analytics	|		[📑](https://docs.google.com/presentation/d/1rWW6ZyH8-Cex4g04wKnXMtjhBZVnPmUdoEZn7rXwer0/export/pdf)		|	
+|	13	|	07.06.	|	UTM Tracking	|		[📑](https://docs.google.com/presentation/d/1_BBH1kD_i_bRA4Rcp8PY6TjDpx95lD6NbOAE-YfWxnY/export/pdf)		|	
+|	14	|	07.06.	|	Facebook Kennzahlen	|		[📑](https://docs.google.com/presentation/d/1hljb0T3sA5yDMCvSXy_SAv3vgW3hSVasc7dT-wwynPE/export/pdf)		|	
+|	15	|	07.06.	|	Case Facebook	|		[📊](https://docs.google.com/spreadsheets/d/1aTkSrNZPeh14Ier3WX-Po5zIlmLWujLfWLfqQcLHKXo/edit?usp=sharing)		|	
