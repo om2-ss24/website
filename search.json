@@ -130,7 +130,7 @@
     "href": "index.html",
     "title": "Course schedule",
     "section": "",
-    "text": "Welcome to our course Big Data and Web Analytics! 👋\nThis page contains a weekly overview about the topics and materials for the semester.\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.\n\n\n\n\n\nNr\nContent\nResources\n\n\n\n\n1\nIntroduction\n\n\n\n2\nBig Data & Web Analytics\n📑\n\n\n3\nPrompt Engineering Basics\n\n\n\n4\nGenerative AI\n\n\n\n5\nAnaconda environment\n⚒️\n\n\n6\nAssistants API from Open AI\nMoodle\n\n\n7\nChat-Frontend: Streamlit Dashboard",
+    "text": "Welcome to our course Big Data and Web Analytics! 👋\nThis page contains a weekly overview about the topics and materials for the semester.\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.\n\n\n\n\n\nNr\nDate\nContent\nResources\n\n\n\n\n1\n\nIntroduction\n\n\n\n2\n03.04.\nBig Data & Web Analytics\n📑\n\n\n3\n10.04.\nPrompt Engineering Basics\n\n\n\n4\n\nGenerative AI\n\n\n\n5\n24.04.\nAnaconda environment\n⚒️\n\n\n6\n24.04.\nAssistants API from Open AI\nMoodle\n\n\n7\n24.04.\nChat-Frontend: Streamlit Dashboard\n\n\n\n8\n01.05.\nGenerative AI (01.05 - 07.06.)\nMoodle\n\n\n9\n\nWeb Analytics\n\n\n\n10\n07.06.\nDigital Customer Journey\n📑\n\n\n11\n07.06.\nWeb tracking mit Blogger\nDemo\n\n\n12\n07.06.\nGoogle Analytics\n📑\n\n\n13\n07.06.\nUTM Tracking\n📑\n\n\n14\n07.06.\nFacebook Kennzahlen\n📑\n\n\n15\n07.06.\nCase Facebook\n📊",
     "crumbs": [
       "Course information",
       "Schedule"
