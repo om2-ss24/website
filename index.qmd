@@ -11,7 +11,6 @@ This page contains a weekly overview about the topics and materials for the seme
 This overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.
 :::
 
-
 |	Nr	|	Date	|	Content	|		Resources		|	
 |	---	|	---	|	---	|		---		|	
 |	1	|		|	**Introduction**	|				|	
@@ -29,3 +28,6 @@ This overview will be updated as the semester progresses. Content marked as not 
 |	13	|	07.06.	|	UTM Tracking	|		[📑](https://docs.google.com/presentation/d/1_BBH1kD_i_bRA4Rcp8PY6TjDpx95lD6NbOAE-YfWxnY/export/pdf)		|	
 |	14	|	07.06.	|	Facebook Kennzahlen	|		[📑](https://docs.google.com/presentation/d/1hljb0T3sA5yDMCvSXy_SAv3vgW3hSVasc7dT-wwynPE/export/pdf)		|	
 |	15	|	07.06.	|	Case Facebook	|		[📊](https://docs.google.com/spreadsheets/d/1aTkSrNZPeh14Ier3WX-Po5zIlmLWujLfWLfqQcLHKXo/edit?usp=sharing)		|	
+|	16	|	07.06.	|	Case Facebook Ads Kampagnen	|		[📊](https://docs.google.com/spreadsheets/d/1svLWw4-mtjcfOfTTxxu2e6PKWlLmhUgeGtefzE6I3mk/edit?usp=sharing)		|	
+|	17	|	07.06.	|	Merchandise Pivot Case Study	|		[📊](https://docs.google.com/spreadsheets/d/1hsUE0PHJR-wmELI8y2XFgcYBFFwqKG4UjI3Y8odM6kU/edit?usp=sharing)		|	
+|	18	|	07.06.	|	Case Werbeinventar	|		[📊](https://docs.google.com/spreadsheets/d/1Ft9CfS7HKJPSiRVqXoIVMcOEg1EfGkPFHKBFNzpmo40/edit?usp=sharing)		|	
