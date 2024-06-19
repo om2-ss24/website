@@ -11,7 +11,6 @@ This page contains a weekly overview about the topics and materials for the seme
 This overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.
 :::
 
-
 |	Nr	|	Date	|	Content	|		Resources		|	
 |	---	|	---	|	---	|		---		|	
 |	1	|		|	**Introduction**	|				|	
@@ -32,5 +31,9 @@ This overview will be updated as the semester progresses. Content marked as not 
 |	16	|	07.06.	|	Case Facebook Ads Kampagnen	|		[📊](https://docs.google.com/spreadsheets/d/1svLWw4-mtjcfOfTTxxu2e6PKWlLmhUgeGtefzE6I3mk/edit?usp=sharing)		|	
 |	17	|	12.06.	|	Merchandise Pivot Case Study	|		[📊](https://docs.google.com/spreadsheets/d/1hsUE0PHJR-wmELI8y2XFgcYBFFwqKG4UjI3Y8odM6kU/edit?usp=sharing)		|	
 |	18	|	12.06.	|	Case Werbeinventar	|		[📊](https://docs.google.com/spreadsheets/d/1Ft9CfS7HKJPSiRVqXoIVMcOEg1EfGkPFHKBFNzpmo40/edit?usp=sharing)		|	
+|	20	|	19.06.	|	Buyer Personas	|		[📝](https://docs.google.com/presentation/d/1dEyL_jVAl2meREQHJdn38u8PJD-26G7gjFbWXT0Abco/view?usp=sharing)		|	
 |	19	|	19.06.	|	Social Media Kennzahlen	|		[📝](https://docs.google.com/presentation/d/1OAy9Qe3h0AlePEcYoeHF9qPLL7aGYvlhvvXsANrl9-g/view?usp=sharing)		|	
 |	20	|	19.06.	|	Social Media Template	|		[📝](https://docs.google.com/presentation/d/15I-qdXuIzqVQo0m7MPdd_u7YK0joMCWU6fHifHkPZHc/view?usp=sharing)		|	
+|	21	|	19.06.	|	Social Media Tools 	|		[📑](https://docs.google.com/presentation/d/1PRpAkwZTA8CGufafmmxoOFgMW1JrfRFt75o1rau_UTI/export/pdf)		|	
+|	21	|	19.06.	|	Marketing Tools	|		[📑](https://docs.google.com/presentation/d/1x4UKIZROhRPOtdNmbOHcZCSLyxlE9h84sFrlvXJj9Tg/export/pdf)		|	
+|	22	|	19.06.	|	Influencer	|		[📑](https://docs.google.com/presentation/d/1bOTkDNpsXqw0_cDPPNxCDHCz61XAiEzwOS1rqw1e2Dc/export/pdf)		|	
