@@ -11,29 +11,39 @@ This page contains a weekly overview about the topics and materials for the seme
 This overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.
 :::
 
-|	Nr	|	Date	|	Content	|		Resources		|	
-|	---	|	---	|	---	|		---		|	
-|	1	|		|	**Introduction**	|				|	
-|	2	|	03.04.	|	Big Data & Web Analytics	|		[📑](https://docs.google.com/presentation/d/14mDixoFHReJhc7D3G0ooC_CZJ8R14AcjJLXqFfUmKgo/export/pdf)		|	
-|	3	|	10.04.	|	Prompt Engineering Basics	|				|	
-|	4	|		|	**Generative AI**	|				|	
-|	5	|	24.04.	|	Anaconda environment	|		[⚒️](https://om2-ss24.github.io/website/anaconda-environment.html)		|	
-|	6	|	24.04.	|	Assistants API from Open AI	|		[Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=2233&section=10)		|	
-|	7	|	24.04.	|	Chat-Frontend: Streamlit Dashboard	|				|	
-|	8	|	01.05.	|	Generative AI (01.05 - 07.06.)	|		[Moodle](https://moodle.hdm-stuttgart.de/course/view.php?id=2233&section=10)		|	
-|	9	|		|	**Web Analytics**	|				|	
-|	10	|	07.06.	|	Digital Customer Journey	|		[📑](https://docs.google.com/presentation/d/1PjsH6zrGXJQmVUeUXqtx97YXXrxmwhj13n442SDNyIE/export/pdf)		|	
-|	11	|	07.06.	|	Web tracking mit Blogger 	|		Demo		|	
-|	12	|	07.06.	|	Google Analytics	|		[📑](https://docs.google.com/presentation/d/1rWW6ZyH8-Cex4g04wKnXMtjhBZVnPmUdoEZn7rXwer0/export/pdf)		|	
-|	13	|	07.06.	|	UTM Tracking	|		[📑](https://docs.google.com/presentation/d/1_BBH1kD_i_bRA4Rcp8PY6TjDpx95lD6NbOAE-YfWxnY/export/pdf)		|	
-|	14	|	07.06.	|	Facebook Kennzahlen	|		[📑](https://docs.google.com/presentation/d/1hljb0T3sA5yDMCvSXy_SAv3vgW3hSVasc7dT-wwynPE/export/pdf)		|	
-|	15	|	07.06.	|	Case Facebook	|		[📊](https://docs.google.com/spreadsheets/d/1aTkSrNZPeh14Ier3WX-Po5zIlmLWujLfWLfqQcLHKXo/edit?usp=sharing)		|	
-|	16	|	07.06.	|	Case Facebook Ads Kampagnen	|		[📊](https://docs.google.com/spreadsheets/d/1svLWw4-mtjcfOfTTxxu2e6PKWlLmhUgeGtefzE6I3mk/edit?usp=sharing)		|	
-|	17	|	12.06.	|	Merchandise Pivot Case Study	|		[📊](https://docs.google.com/spreadsheets/d/1hsUE0PHJR-wmELI8y2XFgcYBFFwqKG4UjI3Y8odM6kU/edit?usp=sharing)		|	
-|	18	|	12.06.	|	Case Werbeinventar	|		[📊](https://docs.google.com/spreadsheets/d/1Ft9CfS7HKJPSiRVqXoIVMcOEg1EfGkPFHKBFNzpmo40/edit?usp=sharing)		|	
-|	20	|	19.06.	|	Buyer Personas	|		[📝](https://docs.google.com/presentation/d/1dEyL_jVAl2meREQHJdn38u8PJD-26G7gjFbWXT0Abco/view?usp=sharing)		|	
-|	19	|	19.06.	|	Social Media Kennzahlen	|		[📝](https://docs.google.com/presentation/d/1OAy9Qe3h0AlePEcYoeHF9qPLL7aGYvlhvvXsANrl9-g/view?usp=sharing)		|	
-|	20	|	19.06.	|	Social Media Template	|		[📝](https://docs.google.com/presentation/d/15I-qdXuIzqVQo0m7MPdd_u7YK0joMCWU6fHifHkPZHc/view?usp=sharing)		|	
-|	21	|	19.06.	|	Social Media Tools 	|		[📑](https://docs.google.com/presentation/d/1PRpAkwZTA8CGufafmmxoOFgMW1JrfRFt75o1rau_UTI/export/pdf)		|	
-|	21	|	19.06.	|	Marketing Tools	|		[📑](https://docs.google.com/presentation/d/1x4UKIZROhRPOtdNmbOHcZCSLyxlE9h84sFrlvXJj9Tg/export/pdf)		|	
-|	22	|	19.06.	|	Influencer	|		[📑](https://docs.google.com/presentation/d/1bOTkDNpsXqw0_cDPPNxCDHCz61XAiEzwOS1rqw1e2Dc/export/pdf)		|	
+|	Nr.	|	Date	|	Topic	|	Literature	|		Resources		|	Links	|
+|	---	|	---	|	---	|	---	|		---		|	---	|
+|	1	|		|	**Introduction**	|		|				|		|
+|	2	|	08.04.	|	Business Model Canvas	|	[📚](https://www.strategyzer.com/library/the-business-model-canvas)	|		[📑](https://docs.google.com/presentation/d/10e41dsg1hWub-aLBB8ZvSxo7gBihw83RKWd95DPCswk/export/pdf)		|		|
+|	3	|	08.04.	|	Data driven introduction	|		|		[📑](https://docs.google.com/presentation/d/1AfzqhjEAfJ5X4Q8YC9GK14jEBfdDXEIRmXonriwYHNY/export/pdf)		|		|
+|	4	|	09.04.	|	Market analysis lab 	|		|		[💻](https://kirenz.github.io/lab-market-analysis)		|		|
+|	5	|	15.04.	|	**Market Research Process**	|		|				|		|
+|	6	|	15.04.	|	Slides	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	7	|	15.04.	|	Task overview	|		|		[📑](https://docs.google.com/document/d/1Xa_6VkCWHlORthTMt9ITAnK9Z7psL9zxJ4ll44fdZqQ/edit?usp=sharing)		|		|
+|	8	|	22.04.	|	Market and environment analysis (doc)	|		|		[📑](https://docs.google.com/document/d/1bYAHZ7sre5xB7C2XnfBPDHzJpTkI5HyD1w3JNoSSKlg/edit?usp=sharing)		|		|
+|	9	|	22.04.	|	**Secondary Research: Data Collection**	|		|				|		|
+|	10	|	16.04.	|	How to obtain data	|		|		[📑](https://docs.google.com/presentation/d/1zldRDAOqmjoJmY_D4-ZkWfhwaklt-UfAPKH4G5kmFVY/export/pdf)		|		|
+|	11	|	16.04.	|	Webscraping: HTML & CSS basics	|		|		[📺 ⏯](https://kirenz.github.io/codelabs/codelabs/webscraping/#0)		|		|
+|	12	|	22.04.	|	Scraping environment preparation	|		|		[⚒️](https://mr-ss24.github.io/website/data-collection/scraping-environment.html)		|		|
+|	13	|	22.04.	|	Scraping quotes	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-web-scraping/blob/main/ae/1_scraping_quotes.ipynb)		|		|
+|	14	|	29.04.	|	Web scraping with ChatGPT	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	15	|	29.04.	|	Social Media Monitoring with Tweepy (optional)	|		|		[💻](https://github.com/kirenz/twitter-tutorial)		|		|
+|	16	|	29.04.	|	API Integration	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	17	|		|	**Primary Research Study Design**	|		|				|		|
+|	18	|	06.05.	|	Population and sample	|	[📚](https://openintro-ims.netlify.app/data-design.html#data-design)	|		[📑](https://docs.google.com/presentation/d/1QPdxp5sFumf9zee-WypsuzSkY7n_hvkhFsdJkRF3-pw/export/pdf)		|	[☑️](https://forms.gle/qPYg55ncRyUGCqXH8)	|
+|	19	|	06.05.	|	Sampling methods	|	[📚](https://openintro-ims.netlify.app/data-design.html#sampling-principles-strategies)	|		[📑](https://docs.google.com/presentation/d/1Rby9NR9F8pu1xHka0Xt1vvbH-oDRfrFC-bwb49IbhA8/export/pdf)		|	[☑️](https://forms.gle/SnQsTPKF5CRQ1Wa49)	|
+|	20	|	06.05.	|	Experiments	|	[📚](https://openintro-ims.netlify.app/data-design.html#experiments)	|		[📑](https://docs.google.com/presentation/d/1FTNBLYBCId2qsL1sMJf3qgBtaFH3hpbUm8lPck5BaTQ/export/pdf)		|	[☑️](https://forms.gle/6Tu92Ez83XANW8Un6)	|
+|	21	|	06.05.	|	Observational Studies	|	[📚](https://openintro-ims.netlify.app/data-design.html#observational-studies)	|		[📑](https://docs.google.com/presentation/d/1Oz5T_nuO1UFcjbliFmsEQWxG1dKJHDPPNWDeTvukxbE/export/pdf)		|	[☑️](https://forms.gle/V36KmsTjeH2finms9)	|
+|	22	|	13.05.	|	**Data cleaning and preprocessing**	|		|				|		|
+|	23	|	13.05.	|	Market research from a data driven perspective	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	24	|	13.05.	|	Pandas lab (task 1-3)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|
+|	25	|	27.05.	|	Pandas lab (task 4-7)	|		|		[💻](https://kirenz.github.io/lab-pandas-intro/)		|		|
+|	26	|	03.06.	|	Pandas Lab with a Custom GPT 	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	27	|	10.06.	|	Google forms survey lab	|		|		[💻](https://kirenz.github.io/lab-survey/)		|		|
+|	28	|	17.06.	|	Google forms survey lab	|		|		[💻](https://kirenz.github.io/lab-survey/)		|		|
+|	29	|		|	**Integrating and Structuring Data**	|		|				|		|
+|	30	|	17.06.	|	Data integration process 	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	31	|	24.06.	|	Data integration process	|		|		[MRP 📑](https://docs.google.com/presentation/d/1-hfFvR2kPQ7daw0vrtqzCDKzVntq4wUlzyZzjuVaZ8Q/edit?usp=sharing)		|		|
+|	32	|		|	**Sentiment Analysis and Natural Language Understanding**	|		|				|		|
+|	33	|	24.06.	|	Text Mining Example with Twitter Data	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-textmining-ae/blob/main/ae/1_textmining.ipynb)		|		|
+|	34	|	24.06.	|	Sentiment Analysis with Twitter Data	|		|		[💻](https://colab.research.google.com/github/kirenz/lab-textmining-ae/blob/main/ae/2_sentiment.ipynb)		|		|
