@@ -1,5 +1,60 @@
 [
   {
+    "objectID": "course-syllabus.html",
+    "href": "course-syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom 108 or room 177\n\n\nExercise\nSaturday, 08.06.24\n09:00 - 17:00\nRoom 133",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#google-analytics-certificate",
+    "href": "course-syllabus.html#google-analytics-certificate",
+    "title": "Syllabus",
+    "section": "3.1 Google Analytics Certificate",
+    "text": "3.1 Google Analytics Certificate\nIn this course, a pivotal assessment entails obtaining the - Google Analytics from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data.\nBy undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course.\nThe certification process will guide you through the functionalities and features of GA4, enabling you to effectively analyze and interpret digital data to optimize your online strategies. This credential is also recognized professionally.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#generative-ai-application",
+    "href": "course-syllabus.html#generative-ai-application",
+    "title": "Syllabus",
+    "section": "3.2 Generative AI Application",
+    "text": "3.2 Generative AI Application\nCreate a Generative AI application for a marketing purpose. More details will be provided during the semester.\nThe focus on Generative AI (Gen AI) is particularly relevant as it holds transformative potential for the marketing domain. Through Gen AI, you can harness the power of automated content creation, personalized marketing, and enhanced customer engagement. It empowers you to generate creative and compelling marketing materials, develop personalized customer interactions, and derive deeper insights from data.\nAdditionally, understanding Large Language Models and Responsible AI will provide a well-rounded comprehension of the ethical considerations and the capabilities of AI in analyzing and understanding customer behaviors and trends. This assessment is designed not only to bolster your technical acumen but also to equip you with the innovative tools essential for modern-day data-driven marketing endeavors.\nBy creating a Generatice AI-driven marketing application, you’ll demonstrate your understanding of foundational concepts in generative AI.\nMore information about the specific requirements will be provided during the semester.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "course-syllabus.html#sec-exams",
+    "href": "course-syllabus.html#sec-exams",
+    "title": "Syllabus",
+    "section": "3.3 Exam",
+    "text": "3.3 Exam\nThere will be one E-exam at the end of the semester. More details about the exam will be given during the semester.",
+    "crumbs": [
+      "Course information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Course schedule",
+    "section": "",
+    "text": "Welcome to our course Big Data and Web Analytics! 👋\nThis page contains a weekly overview about the topics and materials for the semester.\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.\n\n\n\n\n\nNr.\nDate\nTopic\nLiterature\nResources\nLinks\n\n\n\n\n1\n\nIntroduction\n\n\n\n\n\n2\n08.04.\nBusiness Model Canvas\n📚\n📑\n\n\n\n3\n08.04.\nData driven introduction\n\n📑\n\n\n\n4\n09.04.\nMarket analysis lab\n\n💻\n\n\n\n5\n15.04.\nMarket Research Process\n\n\n\n\n\n6\n15.04.\nSlides\n\nMRP 📑\n\n\n\n7\n15.04.\nTask overview\n\n📑\n\n\n\n8\n22.04.\nMarket and environment analysis (doc)\n\n📑\n\n\n\n9\n22.04.\nSecondary Research: Data Collection\n\n\n\n\n\n10\n16.04.\nHow to obtain data\n\n📑\n\n\n\n11\n16.04.\nWebscraping: HTML & CSS basics\n\n📺 ⏯\n\n\n\n12\n22.04.\nScraping environment preparation\n\n⚒️\n\n\n\n13\n22.04.\nScraping quotes\n\n💻\n\n\n\n14\n29.04.\nWeb scraping with ChatGPT\n\nMRP 📑\n\n\n\n15\n29.04.\nSocial Media Monitoring with Tweepy (optional)\n\n💻\n\n\n\n16\n29.04.\nAPI Integration\n\nMRP 📑\n\n\n\n17\n\nPrimary Research Study Design\n\n\n\n\n\n18\n06.05.\nPopulation and sample\n📚\n📑\n☑️\n\n\n19\n06.05.\nSampling methods\n📚\n📑\n☑️\n\n\n20\n06.05.\nExperiments\n📚\n📑\n☑️\n\n\n21\n06.05.\nObservational Studies\n📚\n📑\n☑️\n\n\n22\n13.05.\nData cleaning and preprocessing\n\n\n\n\n\n23\n13.05.\nMarket research from a data driven perspective\n\nMRP 📑\n\n\n\n24\n13.05.\nPandas lab (task 1-3)\n\n💻\n\n\n\n25\n27.05.\nPandas lab (task 4-7)\n\n💻\n\n\n\n26\n03.06.\nPandas Lab with a Custom GPT\n\nMRP 📑\n\n\n\n27\n10.06.\nGoogle forms survey lab\n\n💻\n\n\n\n28\n17.06.\nGoogle forms survey lab\n\n💻\n\n\n\n29\n\nIntegrating and Structuring Data\n\n\n\n\n\n30\n17.06.\nData integration process\n\nMRP 📑\n\n\n\n31\n24.06.\nData integration process\n\nMRP 📑\n\n\n\n32\n\nSentiment Analysis and Natural Language Understanding\n\n\n\n\n\n33\n24.06.\nText Mining Example with Twitter Data\n\n💻\n\n\n\n34\n24.06.\nSentiment Analysis with Twitter Data\n\n💻",
+    "crumbs": [
+      "Course information",
+      "Schedule"
+    ]
+  },
+  {
     "objectID": "code/notebook.html",
     "href": "code/notebook.html",
     "title": "Notebook",
@@ -65,6 +120,39 @@
     ]
   },
   {
+    "objectID": "programming-requirements.html",
+    "href": "programming-requirements.html",
+    "title": "Requirements",
+    "section": "",
+    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment genai and Visual Studio Code\nEnvironment: OpenAI API; environment file with your APIs\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
+    "crumbs": [
+      "Programming & Tools",
+      "Requirements"
+    ]
+  },
+  {
+    "objectID": "course-support.html",
+    "href": "course-support.html",
+    "title": "Course support",
+    "section": "",
+    "text": "1 Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.\n\n\n2 Discussion forum\nPrefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the Moodle forum as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!\n\n\n3 Email\nPlease refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at kirenz@hdm-stuttgart.de.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include the name of our course in the subject line.\n\n\n4 Academic support\nThere are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Center for Learning and Development: it offers free services to all students.",
+    "crumbs": [
+      "Course information",
+      "Support"
+    ]
+  },
+  {
+    "objectID": "course-overview.html",
+    "href": "course-overview.html",
+    "title": "Course overview",
+    "section": "",
+    "text": "Welcome to our course Big Data and Web Analytics! 👋\n\nIn our course, you will delve into the intricacies of the Digital Customer Journey, using the See-Think-Do Framework to understand and map customer interactions. You will gain mastery over analytical tools such as Google Analytics and Google Ads, and implement web tracking techniques to monitor user interactions.\nThe course also covers effective strategies for Search Engine and Social Media Marketing, which enables you to optimize marketing campaigns through analysis of various web and social media metrics.\nStudents will also be equipped with skills in Data Analysis and Visualization, using tools like Excel, SQL, Python & Pandas to conduct marketing analysis and interpret data through dashboards.\nAdvanced Artificial Intelligence and Generative AI techniques involving Large Language Models and prompt engineering will be explored, providing an insight into the cutting-edge technologies shaping the field of marketing.\nMoreover, the course facilitates practical application by teaching students how to design and build analytical applications using Python-based dashboards to visualize data, customize dashboards, and enable data-driven decision-making in marketing analytics.",
+    "crumbs": [
+      "Course information",
+      "Overview"
+    ]
+  },
+  {
     "objectID": "docs/bigquery-marketing-analysts.html",
     "href": "docs/bigquery-marketing-analysts.html",
     "title": "BigQuery for Marketing Analysts",
@@ -91,93 +179,5 @@
     "title": "BigQuery for Marketing Analysts",
     "section": "Lab 3",
     "text": "Lab 3\nCreating Permanent Tables and Access-Controlled Views in BigQuery"
-  },
-  {
-    "objectID": "course-support.html",
-    "href": "course-support.html",
-    "title": "Course support",
-    "section": "",
-    "text": "1 Lectures\nIf you have a question during lecture, feel free to ask it! There are likely other students with the same question, so by asking you will create a learning opportunity for everyone.\n\n\n2 Discussion forum\nPrefer to write out your question in detail rather than asking in person? The online discussion forum is the best venue for these! We will use the Moodle forum as the online discussion forum. There is a chance another student has already asked a similar question, so please check the other posts before adding a new question. If you know the answer to a question that is posted, I encourage you to respond!\n\n\n3 Email\nPlease refrain from emailing any course content questions (those should go to Moodle), and only use email for questions about personal matters that may not be appropriate for the public course forum. For such matters, you may email me at kirenz@hdm-stuttgart.de.\nIf there is a question that’s not appropriate for the public forum, you are welcome to email me directly. If you email me, please include the name of our course in the subject line.\n\n\n4 Academic support\nThere are times you may need help with the class that is beyond what can be provided by the teaching team. In those instances, I encourage you to visit the Center for Learning and Development: it offers free services to all students.",
-    "crumbs": [
-      "Course information",
-      "Support"
-    ]
-  },
-  {
-    "objectID": "programming-requirements.html",
-    "href": "programming-requirements.html",
-    "title": "Requirements",
-    "section": "",
-    "text": "For this course you will need the following setup:\n\nPython: Anaconda, Anaconda Environment genai and Visual Studio Code\nEnvironment: OpenAI API; environment file with your APIs\n\n\n\n\n\n\n\nImportant\n\n\n\nVisit the “Programming Toolkit-webpage” to learn how to meet all requirements.",
-    "crumbs": [
-      "Programming & Tools",
-      "Requirements"
-    ]
-  },
-  {
-    "objectID": "course-overview.html",
-    "href": "course-overview.html",
-    "title": "Course overview",
-    "section": "",
-    "text": "Welcome to our course Big Data and Web Analytics! 👋\n\nIn our course, you will delve into the intricacies of the Digital Customer Journey, using the See-Think-Do Framework to understand and map customer interactions. You will gain mastery over analytical tools such as Google Analytics and Google Ads, and implement web tracking techniques to monitor user interactions.\nThe course also covers effective strategies for Search Engine and Social Media Marketing, which enables you to optimize marketing campaigns through analysis of various web and social media metrics.\nStudents will also be equipped with skills in Data Analysis and Visualization, using tools like Excel, SQL, Python & Pandas to conduct marketing analysis and interpret data through dashboards.\nAdvanced Artificial Intelligence and Generative AI techniques involving Large Language Models and prompt engineering will be explored, providing an insight into the cutting-edge technologies shaping the field of marketing.\nMoreover, the course facilitates practical application by teaching students how to design and build analytical applications using Python-based dashboards to visualize data, customize dashboards, and enable data-driven decision-making in marketing analytics.",
-    "crumbs": [
-      "Course information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Course schedule",
-    "section": "",
-    "text": "Welcome to our course Big Data and Web Analytics! 👋\nThis page contains a weekly overview about the topics and materials for the semester.\n\n\n\n\n\n\nNote\n\n\n\nThis overview will be updated as the semester progresses. Content marked as not in exam is not relevant for the exam.\n\n\n\n\n\nNr\nDate\nContent\nResources\n\n\n\n\n1\n\nIntroduction\n\n\n\n2\n03.04.\nBig Data & Web Analytics\n📑\n\n\n3\n10.04.\nPrompt Engineering Basics\n\n\n\n4\n\nGenerative AI\n\n\n\n5\n24.04.\nAnaconda environment\n⚒️\n\n\n6\n24.04.\nAssistants API from Open AI\nMoodle\n\n\n7\n24.04.\nChat-Frontend: Streamlit Dashboard\n\n\n\n8\n01.05.\nGenerative AI (01.05 - 07.06.)\nMoodle\n\n\n9\n\nWeb Analytics\n\n\n\n10\n07.06.\nDigital Customer Journey\n📑\n\n\n11\n07.06.\nWeb tracking mit Blogger\nDemo\n\n\n12\n07.06.\nGoogle Analytics\n📑\n\n\n13\n07.06.\nUTM Tracking\n📑\n\n\n14\n07.06.\nFacebook Kennzahlen\n📑\n\n\n15\n07.06.\nCase Facebook\n📊\n\n\n16\n07.06.\nCase Facebook Ads Kampagnen\n📊\n\n\n17\n12.06.\nMerchandise Pivot Case Study\n📊\n\n\n18\n12.06.\nCase Werbeinventar\n📊\n\n\n20\n19.06.\nBuyer Personas\n📝\n\n\n19\n19.06.\nSocial Media Kennzahlen\n📝\n\n\n20\n19.06.\nSocial Media Template\n📝\n\n\n21\n19.06.\nSocial Media Tools\n📑\n\n\n21\n19.06.\nMarketing Tools\n📑\n\n\n22\n19.06.\nInfluencer\n📑",
-    "crumbs": [
-      "Course information",
-      "Schedule"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html",
-    "href": "course-syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Day\nTime\nLocation\n\n\n\n\nLecture\nWednesday\n11:45 - 13:15\nRoom 108 or room 177\n\n\nExercise\nSaturday, 08.06.24\n09:00 - 17:00\nRoom 133",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#google-analytics-certificate",
-    "href": "course-syllabus.html#google-analytics-certificate",
-    "title": "Syllabus",
-    "section": "3.1 Google Analytics Certificate",
-    "text": "3.1 Google Analytics Certificate\nIn this course, a pivotal assessment entails obtaining the - Google Analytics from Google. This certification is a testament to your proficiency in leveraging the Google Analytics platform to drive data-driven decision-making and to extract actionable insights from web traffic data.\nBy undertaking the GA4 certification, you not only align your skills with industry standards, but you also lay a solid foundation for excelling in the various web analytics components of the course.\nThe certification process will guide you through the functionalities and features of GA4, enabling you to effectively analyze and interpret digital data to optimize your online strategies. This credential is also recognized professionally.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#generative-ai-application",
-    "href": "course-syllabus.html#generative-ai-application",
-    "title": "Syllabus",
-    "section": "3.2 Generative AI Application",
-    "text": "3.2 Generative AI Application\nCreate a Generative AI application for a marketing purpose. More details will be provided during the semester.\nThe focus on Generative AI (Gen AI) is particularly relevant as it holds transformative potential for the marketing domain. Through Gen AI, you can harness the power of automated content creation, personalized marketing, and enhanced customer engagement. It empowers you to generate creative and compelling marketing materials, develop personalized customer interactions, and derive deeper insights from data.\nAdditionally, understanding Large Language Models and Responsible AI will provide a well-rounded comprehension of the ethical considerations and the capabilities of AI in analyzing and understanding customer behaviors and trends. This assessment is designed not only to bolster your technical acumen but also to equip you with the innovative tools essential for modern-day data-driven marketing endeavors.\nBy creating a Generatice AI-driven marketing application, you’ll demonstrate your understanding of foundational concepts in generative AI.\nMore information about the specific requirements will be provided during the semester.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "course-syllabus.html#sec-exams",
-    "href": "course-syllabus.html#sec-exams",
-    "title": "Syllabus",
-    "section": "3.3 Exam",
-    "text": "3.3 Exam\nThere will be one E-exam at the end of the semester. More details about the exam will be given during the semester.",
-    "crumbs": [
-      "Course information",
-      "Syllabus"
-    ]
   }
 ]
